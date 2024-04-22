@@ -1,4 +1,7 @@
 import React from "react";
+import { FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedinIn } from "react-icons/fa";
 
 const Home = () => {
   return (
@@ -23,6 +26,11 @@ const Home = () => {
             content creators, and other members of a development team to create
             functional and visually appealing web experiences.
           </p>
+          <div className="pb-24 py-24 flex items-center justify-center">
+    <a href="https://www.instagram.com/ashley_alpha_avril" className="text-cyan-700"><FaInstagram className="text-cyan-700 text-xl mr-4" /></a>
+    <a href="https://linkedin.com/in/ashley-alpha-mbabazi-03943b185" className="text-cyan-700"><FaLinkedinIn className="text-cyan-700 text-xl mr-4" /></a>
+    <a href="https://github.com/AshleyAlpha" className="text-cyan-700"><FaGithub className="text-cyan-700 text-xl mr-4" /></a>
+</div>
         </div>
       </div>
     </div>

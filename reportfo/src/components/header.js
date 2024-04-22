@@ -13,7 +13,7 @@ const Header = () => {
       <header className="bg-cyan-700 p-6">
         <div className="container mx-auto flex justify-between items-center flex-wrap">
           <div className="text-white font-semibold text-xl">
-            ALPHA
+          <Link to="/">ALPHA</Link>
           </div>
           <button
             className="block lg:hidden focus:outline-none"
