@@ -3,7 +3,7 @@ import React from "react";
 const About = () => {
   return (
     <div className="flex justify-between items-center px-8 py-4">
-      <div className="max-w-2xl mr-8">
+      <div className="max-w-2xl mr-24">
         <h1 className="text-3xl text-cyan-700 font-bold underline mb-4">
           Who I am?
         </h1>
@@ -21,9 +21,9 @@ const About = () => {
         </p>
       </div>
       <img
-        src="./images/mamie.jpeg"
+        src="./images/using.webp"
         alt="image"
-        className="w-1/4  shadow-xl"
+        className="w-1/4  rounded-full shadow-xl"
       />
     </div>
   );
