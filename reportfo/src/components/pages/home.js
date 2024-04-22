@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 const Home = () => {
   return (
     <div className="flex items-center justify-center">
-      <div className="flex items-center w-3/4 mt-16">
+      <div className="flex items-center w-3/4 mt-14">
         <img
           src="./images/mamie.jpeg"
           alt="image"
