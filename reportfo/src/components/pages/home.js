@@ -2,6 +2,7 @@ import React from "react";
 import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
     <a href="https://www.instagram.com/ashley_alpha_avril" className="text-cyan-700"><FaInstagram className="text-cyan-700 text-xl mr-4" /></a>
     <a href="https://linkedin.com/in/ashley-alpha-mbabazi-03943b185" className="text-cyan-700"><FaLinkedinIn className="text-cyan-700 text-xl mr-4" /></a>
     <a href="https://github.com/AshleyAlpha" className="text-cyan-700"><FaGithub className="text-cyan-700 text-xl mr-4" /></a>
+    <a href="https://twitter.com/AlphaMamie" className="text-cyan-700"><FaXTwitter className="text-cyan-700 text-xl mr-4" /></a>
 </div>
         </div>
       </div>
